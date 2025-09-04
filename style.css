@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./images/Galaxy-Stars-Wallpaper-.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.circle-1 {
+  width: 1200px;
+  height: 1200px;
+  background-color: black;
+}
+
+.circle-2 {
+  width: 1000px;
+  height: 1000px;
+  background-color: white;
+}
+
+.circle-3 {
+  width: 800px;
+  height: 800px;
+  background-color: black;
+}
+
+.circle-4 {
+  width: 600px;
+  height: 600px;
+  background-color: white;
+}
+
+.circle-5 {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+}
+
+.circle-6 {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+}
+
+/* motion-safe:animate-spin */
